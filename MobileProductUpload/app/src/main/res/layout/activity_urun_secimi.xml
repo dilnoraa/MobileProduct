@@ -1,0 +1,941 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pc.sadear_ge.UrunSecimi"
+    android:background="#FF0000">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:text="Makine Kodu:"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="20dp"
+            android:textColor="#fffffcfe"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+           android:layout_marginBottom="4dp"
+            android:text="_______"
+            android:layout_marginTop="7dp"
+            android:textSize="20dp"
+            android:id="@+id/makineKodu"
+            android:textColor="#fffffcfe"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:orientation="horizontal"
+        android:background="#006600">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#006600"
+        android:id="@+id/textViewSonTarih" />
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonOnceki"
+            android:text="Onceki Gibi Yükle"
+            android:gravity="center"
+            android:background="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+
+                    android:background="#FF0000"
+                    android:src="@drawable/cola330"
+                        android:id="@+id/cola330"
+                    android:onClick="icecekTiklandi"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+
+                    android:background="#FF0000"
+                    android:src="@drawable/fanta"
+                    android:id="@+id/fanta330"
+                    android:onClick="icecekTiklandi"/>
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                     android:id="@+id/sprite330"
+                    android:background="#FF0000"
+                    android:src="@drawable/sprite330"
+                    android:onClick="icecekTiklandi"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/colazero330"
+                    android:id="@+id/colazero330" />
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/colalight330"
+                    android:id="@+id/colalight330"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/cappysefta330"
+                    android:src="@drawable/cappysefta330"/>
+
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/cappykaris330"
+                    android:src="@drawable/cappykaris330"/>
+
+
+                <ImageView
+                    android:id="@+id/cappypulpy330"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappypulpy330"/>
+
+
+                <ImageView
+                    android:id="@+id/nesteasefta330"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/nesteasefta330"/>
+
+                <ImageView
+                    android:id="@+id/damlaelma200"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/damlaelma200"/>
+
+                <ImageView
+                    android:id="@+id/damlalimon200"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/damlalimon200"/>
+
+
+                <ImageView
+                    android:id="@+id/damlaminerasade"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/damlaminerasade"/>
+
+                <ImageView
+                    android:id="@+id/damlapet500"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/damlapet500"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colacan200"
+                    android:src="@drawable/colacan200"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/schweppesmandal250"
+                    android:src="@drawable/schweppesmandal250"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/burncan250"
+                    android:src="@drawable/burncan250"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/damlapet330"
+                    android:id="@+id/damlapet330"
+                    />
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/sprite200"
+                    android:src="@drawable/sprite200ml"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/sprite250"
+                    android:src="@drawable/sprite250"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/damlacilek200"
+                    android:src="@drawable/damlacilek200"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/cappytropik200"
+                    android:src="@drawable/cappytropik200"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/cappytropik330"
+                    android:src="@drawable/cappytropik330"/>
+
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/cola250pet"
+                    android:src="@drawable/cola250pet"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colaowb250"
+                    android:src="@drawable/colaowb250"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colarb200"
+                    android:src="@drawable/colarb200"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colarb250"
+                    android:src="@drawable/colarb250"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colapet450"
+                    android:src="@drawable/colapet450"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colalight250"
+                    android:src="@drawable/colalight250"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colalight450pet"
+                    android:src="@drawable/colalightpet450"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colazero250"
+                    android:src="@drawable/colazero250"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/colazero450pet"
+                    android:src="@drawable/colazero450pet"/>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:id="@+id/schweppeslimon250"
+                    android:src="@drawable/schweppeslimon250"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+
+                    android:background="#FF0000"
+                    android:src="@drawable/cappysafportakal200"
+                    android:id="@+id/cappysafportakal200"
+                    android:onClick="icecekTiklandi"/>
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyturuncg200"
+                    android:id="@+id/cappyturuncg200"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappycilek330"
+                    android:id="@+id/cappycilek330"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyelma200"
+                    android:id="@+id/cappyelma200"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyelma330can"
+                    android:id="@+id/cappyelma330can"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappykarisik200"
+                    android:id="@+id/cappykarisik200"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappykayisi200"
+                    android:id="@+id/cappykayisi200"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappykayisi330can"
+                    android:id="@+id/cappykayisi330can"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappykirmizimey330can"
+                    android:id="@+id/cappykirmizimey330can"/>
+
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappylimonata330"
+                    android:id="@+id/cappylimonata330"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyportakal200tetra"
+                    android:id="@+id/cappyportakal200tetra"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyportakal330can"
+                    android:id="@+id/cappyportakal330can"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappysafmeyveler330"
+                    android:id="@+id/cappysarmeyveler330"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyseftali200tetra"
+                    android:id="@+id/cappyseftali200tetra"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyvisne200tetra"
+                    android:id="@+id/cappyvisne200tetra"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/cappyvisne330can"
+                    android:id="@+id/cappyvisne330can"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/fanta200rb"
+                    android:id="@+id/fanta200rb"
+                    />
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/fanta250pet"
+                    android:id="@+id/fanta250pet"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/fanta250rb"
+                    android:id="@+id/fanta250rb"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/fanta500pet"
+                    android:id="@+id/fanta500pet"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/fantakaraportakl330"
+                    android:id="@+id/fantaportakal330"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/fantamandalina330"
+                    android:id="@+id/fantamandalina330"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/gladiator250"
+                    android:id="@+id/gladiator250"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/nestealimon330"
+                    android:id="@+id/nestealimon330"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/nesteamangoananas"
+                    android:id="@+id/nesteamangoananas"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/poweradeblast"
+                    android:id="@+id/poweradeblast"/>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/damlameyvelimandalina"
+                    android:id="@+id/damlameyvelimandalina"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/damlamineravisne"
+                    android:id="@+id/damlamineravisne"/>
+
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:onClick="icecekTiklandi"
+                    android:background="#FF0000"
+                    android:src="@drawable/burnblue250"
+                    android:id="@+id/burnblue250"/>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinnerUrun">
+
+    </Spinner>
+
+
+
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center">
+
+
+        <TableRow
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp">
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="1"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonBir"
+                android:onClick="sayiTiklandi"
+
+                />
+
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="2"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonIki"
+                android:onClick="sayiTiklandi"
+
+                />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="3"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonUc"
+                android:onClick="sayiTiklandi"
+
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="4"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonDort"
+                android:onClick="sayiTiklandi"
+
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="5"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonBes"
+                android:onClick="sayiTiklandi"
+
+                />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="6"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonAlti"
+                android:onClick="sayiTiklandi"
+
+                />
+
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp">
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="7"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonYedi"
+                android:onClick="sayiTiklandi"
+
+                />
+
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="8"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonSekiz"
+                android:onClick="sayiTiklandi"
+
+                />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="9"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonDokuz"
+                android:onClick="sayiTiklandi"
+
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="10"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonOn"
+                android:onClick="sayiTiklandi"
+
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="11"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/button11"
+                android:onClick="sayiTiklandi"
+
+                />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="0"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/buttonSifir"
+                android:onClick="sayiTiklandi"
+
+                />
+
+
+
+
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+
+            android:text="Adet:"
+           android:paddingLeft="90dp"
+
+            android:textSize="15dp"
+            android:textColor="#fffffcfe"/>
+
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:id="@+id/spinnerAdet">
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Kanal Aralığı:"
+
+            android:textSize="20dp"
+            android:textColor="#fffffcfe"/>
+
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:id="@+id/edittextBaslangic"
+            android:layout_marginLeft="15dp"/>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FF0000"
+            android:src="@drawable/cizgi"/>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:id="@+id/edittextBitis"
+            android:layout_marginLeft="4dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp">
+        <Spinner
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:id="@+id/spinnerAralik"
+
+            android:layout_marginLeft="110dp"
+            android:focusable="false"
+            android:clickable="true">
+
+        </Spinner>
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="34dp"
+            android:background="#FF0000"
+            android:id="@+id/buttonYuklemeListe"
+            android:src="@drawable/clipboard"
+            android:layout_gravity="right"
+            android:layout_marginLeft="100dp"
+           />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

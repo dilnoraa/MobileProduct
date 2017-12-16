@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0000"
+    tools:context="com.example.pc.sadear_ge.Giris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="Mobil Ürün Yükleme"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="24dp" />
+
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="66dp"
+            android:background="#FF0000"
+            android:src="@drawable/ihtiyaclistesi"
+            android:id="@+id/imageButtonihtiyacListe"/>
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="right"
+        android:text="Makine Konumu"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#fffffcfe"/>
+
+    <Spinner
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinnerKonum"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:text="Makine Kodu"
+        android:layout_marginTop="17dp"
+        android:textSize="20dp"
+        android:textColor="#fffffcfe"/>
+
+    <Spinner
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinnerMakineKodu"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:text="Makine Tipi:"
+            android:layout_marginTop="17dp"
+            android:textSize="20dp"
+            android:textColor="#fffffcfe"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:text="___________"
+            android:id="@+id/textviewMakinetipi"
+            android:layout_marginTop="17dp"
+            android:textSize="20dp"
+            android:textColor="#fffffcfe"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:text="Son Yükleme:"
+            android:layout_marginTop="17dp"
+            android:textSize="20dp"
+            android:textColor="#fffffcfe"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textViewSonYukleme"
+            android:text="__________"
+            android:layout_marginTop="17dp"
+            android:textSize="20dp"
+            android:textColor="#fffffcfe"/>
+
+
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        android:text="Yükleme"
+        android:id="@+id/buttonYukleme"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buton_tasarimi" />
+
+
+
+
+
+</LinearLayout>

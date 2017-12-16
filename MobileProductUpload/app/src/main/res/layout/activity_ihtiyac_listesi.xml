@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FF0000"
+    android:orientation="vertical"
+    tools:context="com.example.pc.sadear_ge.ihtiyac_listesi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="İhtiyaç Listesi"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonUrunYukleme"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#FF0000"
+            android:src="@drawable/urun_yukleme" />
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Makine Rutu"
+
+        android:textColor="#ffffff"
+        android:textSize="21dp" />
+
+    <Spinner
+        android:id="@+id/spinnerRutlar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </Spinner>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Makine Kodu"
+
+        android:textColor="#ffffff"
+        android:textSize="21dp" />
+
+    <com.example.pc.sadear_ge.MultiSelectionSpinner
+        android:id="@+id/spinnerKod"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </com.example.pc.sadear_ge.MultiSelectionSpinner>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Makine Tipi:"
+
+            android:textColor="#ffffff"
+            android:textSize="21dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:text="________"
+
+            android:textColor="#fffffcfe"
+            android:textSize="21dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Son Yükleme:"
+
+            android:textColor="#ffffff"
+            android:textSize="21dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:text="________"
+
+            android:textColor="#fffffcfe"
+            android:textSize="21dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonYukleme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buton_tasarimi"
+        android:text="Yükleme"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</LinearLayout>

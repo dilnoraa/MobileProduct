@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Sade Ar-Ge</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_giris">Mobil Ürün Yükleme</string>
+
+
+
+    
+    <array name="konum" >
+        <item>Konum Seçiniz</item>
+        <item>CMS JANT SANAYİ BORNOVA</item>
+        <item>UPS KARGO</item>
+        <item>SUN EXPRESS İZMİR</item>
+        <item>KONFOR MOBİLYA</item>
+        <item>ÇAKIRLAR OTO</item>
+        <item>JMS CANT ÇİĞLİ</item>
+        <item>BALIKESİR ASKERİYE</item>
+        <item>STANDART CİVATA</item>
+        <item>OBEL CİVATA</item>
+        <item>ETEPAK AMBALAJ</item>
+        <item>VANSAN MAKİNA</item>
+        <item>AHMET YAR SOGUTMA</item>
+        <item>VİKİNG TEMİZLİK</item>
+        <item>SAY REKLAM</item>
+        <item>ÖNTAŞ AMBALAJ</item>
+        <item>KAPLAMİN A.Ş YÜKLEME</item>
+        <item>AYMAS MAKİNA</item>
+        <item>ŞENKAYA ÇELİK</item>
+        <item>UPS KARGO SEVKİYAT</item>
+        <item>GÖNÜL ŞEN OTO</item>
+        <item>MEDİA MARKET</item>
+
+    </array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <array name="icecekler">
+
+        <item>Coca-Cola 330 ml Can</item>
+        <item>Fanta 330 ml Can</item>
+        <item>Sprite 330 ml Can</item>
+        <item>Coca-Cola Zero 330 ml Can</item>
+        <item>Coke Light 330 ml Can</item>
+        <item>Cappy Şeftali 330 ml Can</item>
+        <item>FUSE TEA KARPUZ 330 ml Can</item>
+        <item>FUSE TEA SEFTALI KUTU330</item>
+        <item>FUSE TEA 250 ml Can</item>
+        <item>FUSE TEA 330 ml Can</item>
+        <item>Cappy Meyve Tanem Şeftali 330 ml Pet</item>
+        <item> Cappy Karadut 330 ml Pet</item>
+        <item> Cappy Karışık  330 ml Can</item>
+        <item>Cappy Pulpy Portakal 330 ml Pet </item>
+        <item>Nestea Şeftali 330 ml Can </item>
+        <item>Damla Minera Meyveli Elma 200 ml OWB </item>
+        <item>Damla Minera Meyveli Limon 200 ml OWB </item>
+        <item>Damla Minera Sade 200 ml OWB</item>
+        <item>Damla Minera 200 ml OWB meyveli</item>
+        <item>Damla 500 ml Pet</item>
+        <item>Coca-Cola 200 ml Can</item>
+        <item>Schweppes Mandalina 250 ml OWB</item>
+        <item>Burn 250 ml Can</item>
+        <item>Damla 330 ml Pet</item>
+        <item>Cappy 330 ml Can</item>
+        <item>Cappy 200ml Tetra</item>
+        <item>Cappy 330 ml Pet</item>
+        <item>Sprite 200 ml OWB</item>
+        <item>Sprite 250 ml RB</item>
+        <item>Damla Minera Meyveli Çilek 200 ml OWB</item>
+        <item>FUSE TEA LIMON 330 ml Can</item>
+        <item>FUSE TEA MAN.ANANAS. 330 Can</item>
+        <item>Cappy Tropik 200 ml Tetra</item>
+        <item>Cappy Tropik 330 ml Can</item>
+        <item>Coca-Cola 250 ml Pet</item>
+        <item>Coca-Cola 250 ml OWB</item>
+        <item>Coca-Cola 200 ml RB</item>
+        <item>Coca-Cola 250 ml RB</item>
+        <item>Coca-Cola 450 ml Pet</item>
+        <item>Coca-Cola Light 250 ml OWB</item>
+        <item>Coke Light 450 ml Pet</item>
+        <item>Coke Zero 250 ml OWB</item>
+        <item>Coca-Cola Zero 450 ml Pet</item>
+        <item>Schweppes Limon 250 ml OWB</item>
+        <item>Cappy %100 Saf Portakal 200 ml Tetra</item>
+        <item>Cappy %100 Turunçgiller 200 ml Tetra</item>
+        <item>Cappy Çilekli Limonata 330 ml Pet</item>
+        <item>Cappy Elma 200 ml Tetra</item>
+        <item>Cappy Elma 330 ml Can</item>
+        <item>Cappy Karışık  200 ml Tetra</item>
+        <item>Cappy Kayısı 200 ml Tetra</item>
+        <item>Cappy Kayısı 330 ml Can</item>
+        <item>Cappy Kırmızı Meyveler 330 ml Can</item>
+        <item>Cappy Limonata 330 ml Pet</item>
+        <item>Cappy Portakal 200 ml Tetra</item>
+        <item>Cappy Portakal 330 ml Can</item>
+        <item>Cappy Sarı Meyveler 330 ml Can</item>
+        <item>Cappy Şeftali 200 ml Tetra</item>
+        <item>Cappy Vişne 200 ml Tetra</item>
+        <item>Cappy Vişne 330 ml Can</item>
+        <item>Fanta 200 ml RB</item>
+        <item>Fanta 250 ml Pet</item>
+        <item>Fanta 250 ml RB</item>
+        <item>Fanta 500 ml Pet</item>
+        <item> Fanta Kan Portakal 330 ml Can</item>
+        <item>Fanta Mandalina 330 ml Can</item>
+        <item> Gladiatör 250 ml Can</item>
+        <item> Nestea Limon 330 ml Can</item>
+        <item>Nestea Mango - Ananas 330 ml Can</item>
+        <item> Powerade Ice Blast 500 ml Pet</item>
+        <item>Damla Minera Meyveli Mandalina 200 ml OWB</item>
+        <item>Damla Minera Meyveli Vişne 200 ml OWB</item>
+        <item>Burn Blue 250 ml Can</item>
+        <item>Cappy Karışık Meyve Tanem 330 ml Can</item>
+        <item> Damla Minera Soda 330 ml OWB</item>
+        <item>Damla Minera Soda 750 ml OWB </item>
+        <item> Damla MP 330 Çocuk</item>
+        <item>Damla OWB 330 ml</item>
+        <item>Damla OWB 750 ml</item>
+        <item>Schweppes Tonik 250 ml OWB</item>
+        <item>Nestea Cool 330 ml Can</item>
+        <item>Burn Blue 500 ml </item>
+        <item>Burn Berry 500 ml</item>
+        <item>Burn 500 ml</item>
+        <item>Powerade Citrus Charge 500 ml Pet</item>
+        <item>Powerade Sun Rush 500 ml Pet</item>
+        <item>Cappy Atom 330 ml Can</item>
+        <item>Coca-Cola 250 ml Can</item>
+        <item>Coca-Cola Light 250 ml Can </item>
+        <item>Coca-Cola Light 330 ml Can</item>
+        <item>Coca-Cola Light 450 Pet</item>
+        <item>Coca-Cola Zero 250 ml Can</item>
+        <item> Coca-Cola Zero 250 ml OWB</item>
+        <item>Damla Minera 200 ml OWB Meyveli</item>
+        <item>Fanta 200 ml OWB</item>
+        <item>Fanta 250 ml Can</item>
+        <item>FUSE TEA 250 ml Can Grup</item>
+        <item>FUSE TEA 330 ml Can Grup</item>
+        <item> FUSE TEA Karpuz 250 ml Can</item>
+        <item>FUSE TEA Limon 250 ml Can</item>
+        <item>FUSE TEA Man.Ananas 250 ml Can</item>
+        <item>FUSE TEA Şeftali 205 ml Can </item>
+        <item>Kredi Kartı Satış</item>
+        <item>Sprite 250 ml Can</item>
+
+
+
+    </array>
+    <string name="title_activity_urun_secimi">UrunSecimi</string>
+    <string name="title_activity_ihtiyac_listesi">ihtiyac_listesi</string>
+
+
+    <array name="rutlar">
+
+        <item> Tüm Rotlar</item>
+        <item>AYDIN VE DENİZLİ</item>
+        <item>BORNOVA</item>
+        <item>ÇİĞLİ</item>
+        <item>FABRİKAYA GİDEN</item>
+        <item>GAZİEMİR</item>
+        <item>KEMALPAŞA</item>
+        <item>TORBALI</item>
+    </array>
+
+
+    <array name="kodlar">
+
+        <item>A YANGIN</item>
+        <item>AHMET YAR</item>
+        <item>BARAN AMBALAJ</item>
+        <item>BATI BASMA</item>
+        <item>BAYLAN SU SAYAÇLARI</item>
+        <item>CEVA LOJİSTİK</item>
+        <item>CEVHER DÖKÜM</item>
+        <item>CMS-1</item>
+        <item>DEKORPAN</item>
+        <item>DİRİNLER</item>
+        <item>DR OETKER</item>
+        <item>EFE ENDÜSTRİ</item>
+        <item>EGE MEZE</item>
+        <item>EGE PROFİL</item>
+        <item>ERENLİ PLASTİK</item>
+        <item>EKOTEM</item>
+        <item>FİTNESS COMPANY</item>
+        <item>FOLKARS</item>
+        <item>FORUM BORNOVA</item>
+    </array>
+
+
+    <array name="doldurmaTipi" >
+
+        <item>Yükleme</item>
+        <item>Servis</item>
+        <item>Setup</item>
+        <item>Test</item>
+        <item>Otomatik Yükleme</item>
+    </array>
+
+    <array name="yl" >
+
+        <item> BevMax4-Eğitim-Üniversite BevMax</item>
+        <item>BevMax4-Hastane BevMax</item>
+        <item>BevMax4-Fabrika-Ofis</item>
+        <item>Gdrink5-Üniversite  Gdrink</item>
+        <item>Gdrink5-Hastane BevMax</item>
+        <item>Gdrink5-Fabrika-Ofis</item>
+        <item>Vendo544-Askeriye</item>
+        <item>Dixie NRC-Askeriye</item>
+        <item>Sielaff Askeriye</item>
+    </array>
+    <string name="title_activity_yukleme_listesi">Yukleme_listesi</string>
+    <string name="title_activity_onceki_gibi_yukle">oncekiGibiYukle</string>
+</resources>
